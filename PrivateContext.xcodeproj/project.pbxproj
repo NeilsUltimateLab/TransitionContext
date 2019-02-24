@@ -14,6 +14,7 @@
 		D241B580222252E000E7D356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D241B57E222252E000E7D356 /* LaunchScreen.storyboard */; };
 		D241B58A2222602900E7D356 /* PrivateTransitionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241B5892222602900E7D356 /* PrivateTransitionContext.swift */; };
 		D241B58C22226C5B00E7D356 /* PrivateAnimatedTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241B58B22226C5B00E7D356 /* PrivateAnimatedTransition.swift */; };
+		D241B58E22229AC100E7D356 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D241B58D22229AC100E7D356 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D241B581222252E000E7D356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D241B5892222602900E7D356 /* PrivateTransitionContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateTransitionContext.swift; sourceTree = "<group>"; };
 		D241B58B22226C5B00E7D356 /* PrivateAnimatedTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateAnimatedTransition.swift; sourceTree = "<group>"; };
+		D241B58D22229AC100E7D356 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		D241B569222252DF00E7D356 = {
 			isa = PBXGroup;
 			children = (
+				D241B58D22229AC100E7D356 /* README.md */,
 				D241B574222252DF00E7D356 /* PrivateContext */,
 				D241B573222252DF00E7D356 /* Products */,
 			);
@@ -130,6 +133,7 @@
 			files = (
 				D241B580222252E000E7D356 /* LaunchScreen.storyboard in Resources */,
 				D241B57D222252E000E7D356 /* Assets.xcassets in Resources */,
+				D241B58E22229AC100E7D356 /* README.md in Resources */,
 				D241B57B222252DF00E7D356 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
