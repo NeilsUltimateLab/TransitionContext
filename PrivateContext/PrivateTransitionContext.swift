@@ -33,6 +33,7 @@ class PrivateTransitionContext: NSObject, UIViewControllerContextTransitioning {
     
     init(fromViewController: UIViewController, toViewController: UIViewController, direction: Direction) {
         assert(fromViewController.view.superview != nil, "fromViewController view must reside in containerView upon initialising the transition context.")
+        
         self.containerView = fromViewController.view.superview!
         viewControllers[.from] = fromViewController
         viewControllers[.to] = toViewController
